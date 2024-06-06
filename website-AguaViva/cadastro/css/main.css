@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: url("../images/v299_5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Contêiner para o formulário */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin: auto;
+  width: 364px;
+  height: 371px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  position: relative;
+  /* Adiciona position: relative ao form-container */
+}
+
+/* Define o tamanho dos elementos dentro do formulário */
+.form-container>* {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.texto {
+  display: flex;
+  width: 80%;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-family: Space Grotesk;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+  position: absolute;
+  /* Define position: absolute para o texto */
+  bottom: 20px;
+  /* Posiciona o texto abaixo do form-container */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.CriarConta {
+  display: flex;
+  color: rgba(1, 85, 98, 1);
+  font-family: Space Grotesk;
+  font-weight: Medium;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+/* Estilos para os campos do formulário */
+.CampoEmail,
+.CampoSenha,
+.CampoSenha {
+  display: flex;
+  height: 45px;
+  background: rgba(222, 222, 222, 1);
+  opacity: 1;
+  border: 2.5px solid rgba(92, 92, 92, 1);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.Criar {
+  display: flex;
+  height: 55px;
+  background: rgba(1, 85, 98, 1);
+  opacity: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+  font-family: Space Grotesk;
+  font-weight: Medium;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para as labels */
+.DefSenha,
+.email,
+.ConfSenha {
+  display: flex;
+  color: rgba(86, 86, 86, 1);
+  font-family: Space Grotesk;
+  font-weight: Medium;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 5px;
+}
