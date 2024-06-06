@@ -1,137 +1,130 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-size: 14px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: url("/website-AguaViva/login/images/v295_49.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
-.backgound {
+
+.background {
   width: 100%;
-  height: 1024px;
-  /*background: rgba(255,255,255,1);*/
-  background: url("/images/v295_49.png");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.login-container {
+  width: 364px;
+  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v295_49 {
-  width: 100%;
-  height: 100%;
-  background: url("/images/v295_49.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 1538px;
-  left: 575px;
-  overflow: hidden;
-}
-.v295_50 {
-  width: 564px;
-  height: 535px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 265px;
-  left: 435px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
-.v295_51 {
-  width: 129px;
-  color: rgba(1,85,98,1);
-  position: absolute;
-  top: 311px;
-  left: 653px;
+
+.login-title {
+  width: 100%;
+  color: rgba(1, 85, 98, 1);
   font-family: Space Grotesk;
   font-weight: Medium;
   font-size: 48px;
   opacity: 1;
   text-align: center;
+  margin-bottom: 30px;
 }
-.v295_52 {
-  width: 417px;
-  height: 45px;
-  background: rgba(222,222,222,1);
+
+/* Aplicando o Flexbox ao container de inputs */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+  flex-shrink: 1;
+}
+
+.login-label,
+.password-label {
+  width: auto;
+  color: rgba(86, 86, 86, 1);
+  font-family: Space Grotesk;
+  font-weight: Medium;
+  font-size: 25px;
   opacity: 1;
-  position: absolute;
-  top: 450px;
-  left: 509px;
-  border: 2.5128204822540283px solid rgba(92,92,92,1);
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.login-input,
+.password-input {
+  width: 100%;
+  height: 45px;
+  background: rgba(222, 222, 222, 1);
+  opacity: 1;
+  border: 2.5128204822540283px solid rgba(92, 92, 92, 1);
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   overflow: hidden;
+  padding: 10px;
+  flex-shrink: 1;
 }
-.v295_53 {
-  width: 417px;
-  height: 45px;
-  background: rgba(222,222,222,1);
-  opacity: 1;
-  position: absolute;
-  top: 527px;
-  left: 509px;
-  border: 2.5128204822540283px solid rgba(92,92,92,1);
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-  overflow: hidden;
-}
-.v295_54 {
-  width: 332px;
+
+.submit-button {
+  width: 100%;
   height: 55px;
-  background: rgba(1,85,98,1);
+  background: rgba(1, 85, 98, 1);
   opacity: 1;
-  position: absolute;
-  top: 681px;
-  left: 551px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   overflow: hidden;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family: Space Grotesk;
+  font-weight: Medium;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.v295_55 {
-  width: 59px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 693px;
-  left: 688px;
+
+.submit-text {
+  color: rgba(255, 255, 255, 1);
   font-family: Space Grotesk;
   font-weight: Medium;
   font-size: 20px;
   opacity: 1;
   text-align: left;
 }
-.v295_56 {
-  width: 68px;
-  color: rgba(86,86,86,1);
-  position: absolute;
-  top: 453px;
-  left: 537px;
-  font-family: Space Grotesk;
-  font-weight: Medium;
-  font-size: 25px;
-  opacity: 1;
-  text-align: left;
-}
-.v295_57 {
-  width: 76px;
-  color: rgba(86,86,86,1);
-  position: absolute;
-  top: 531px;
-  left: 537px;
-  font-family: Space Grotesk;
-  font-weight: Medium;
-  font-size: 25px;
-  opacity: 1;
-  text-align: left;
+
+@media (max-width: 600px) {
+  .login-container {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    padding: 20px;
+  }
 }
