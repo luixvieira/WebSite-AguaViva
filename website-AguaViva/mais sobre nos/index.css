@@ -1,0 +1,202 @@
+.wireframe9-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.wireframe9-wireframe9 {
+  width: 100%;
+  height: 2085px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(241, 241, 241, 1);
+}
+.wireframe9-ellipse2 {
+  top: 40px;
+  left: 77px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+.wireframe9-whats-app-image20240603at19342 {
+  top: 52px;
+  left: 89px;
+  width: 55px;
+  height: 33px;
+  position: absolute;
+}
+.wireframe9-text {
+  top: 86px;
+  left: 91px;
+  color: rgba(244, 250, 252, 1);
+  width: 52px;
+  height: auto;
+  position: absolute;
+  font-size: 12.325926780700684px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Baloo Bhai 2;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe9-text02 {
+  top: 702px;
+  left: 89px;
+  color: rgba(0, 0, 0, 1);
+  width: 563px;
+  height: auto;
+  position: absolute;
+  font-size: 80px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe9-text04 {
+  top: 799px;
+  left: 91px;
+  color: rgba(0, 0, 0, 1);
+  width: 1053px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe9-text06 {
+  top: 1230px;
+  left: 89px;
+  color: rgba(0, 0, 0, 1);
+  width: 1221px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe9-text08 {
+  top: 1109px;
+  left: 91px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 80px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe9-text10 {
+  top: 1518px;
+  left: 89px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 80px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe9-text12 {
+  top: 316px;
+  left: 104px;
+  color: rgba(0, 0, 0, 1);
+  width: 1236px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe9-text14 {
+  top: 1638px;
+  left: 89px;
+  color: rgba(0, 0, 0, 1);
+  width: 1053px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe9-text15 {
+  color: rgba(0, 0, 0, 1);
+}
+.wireframe9-text16 {
+  color: rgba(0, 127, 149, 0.8199999928474426);
+}
+.wireframe9-text17 {
+  color: rgba(0, 0, 0, 1);
+}
+.wireframe9-text18 {
+  color: rgba(0, 127, 149, 0.8199999928474426);
+}
+.wireframe9-text20 {
+  top: 63px;
+  left: 1250px;
+  color: rgba(0, 0, 0, 1);
+  width: 62px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe9-text22 {
+  top: 232px;
+  left: 104px;
+  color: rgba(0, 0, 0, 1);
+  width: 645px;
+  height: auto;
+  position: absolute;
+  font-size: 80px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
