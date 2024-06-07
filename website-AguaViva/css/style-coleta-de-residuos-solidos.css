@@ -442,6 +442,22 @@ body {
   height: 39px;
   position: absolute;
 }
+.ellipse-logo {
+  top: 16.9501953125px;
+  left: 75.900390625px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+.whatsapp-image-20240603at19342 {
+  top: 24.720458984375px;
+  left: 105.86376953125px;
+  width: 20px;
+  height: 47px;
+  position: absolute;
+  border-radius: 10px;
+}
+
 .wireframe15-group4916 {
   top: 0px;
   left: -5.0498046875px;
@@ -486,21 +502,7 @@ body {
   font-stretch: normal;
   text-decoration: none;
 }
-.wireframe15-ellipse2 {
-  top: 16.9501953125px;
-  left: 66.9501953125px;
-  width: 80px;
-  height: 80px;
-  position: absolute;
-}
-.wireframe15-whats-app-image20240603at19342 {
-  top: 24.720458984375px;
-  left: 96.91357421875px;
-  width: 20px;
-  height: 47px;
-  position: absolute;
-  border-radius: 10px;
-}
+
 .wireframe15-text49 {
   top: 59.52978515625px;
   left: 80.880615234375px;

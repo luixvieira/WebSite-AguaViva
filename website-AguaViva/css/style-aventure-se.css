@@ -479,7 +479,23 @@ body {
   font-stretch: normal;
   text-decoration: none;
 }
-.wireframe16-group4916 {
+.ellipse-logo {
+  top: 16.9501953125px;
+  left: 75.900390625px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+.whatsapp-image-20240603at19342 {
+  top: 24.720458984375px;
+  left: 105.86376953125px;
+  width: 20px;
+  height: 47px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.wireframe15-group4916 {
   top: 0px;
   left: -5.0498046875px;
   width: 1445.0498046875px;
@@ -489,7 +505,7 @@ body {
   align-items: flex-start;
   flex-shrink: 1;
 }
-.wireframe16-mdiheart {
+.wireframe15-mdiheart {
   top: 0px;
   left: 0px;
   width: 24px;
@@ -501,14 +517,14 @@ body {
   flex-shrink: 0;
   border-radius: 10px;
 }
-.wireframe16-rectangle64 {
+.wireframe15-rectangle64 {
   top: 0px;
   left: 5.0498046875px;
   width: 1440px;
   height: 114px;
   position: absolute;
 }
-.wireframe16-text42 {
+.wireframe15-text47 {
   top: 41px;
   left: 1110.0498046875px;
   color: rgba(0, 0, 0, 1);
@@ -523,22 +539,8 @@ body {
   font-stretch: normal;
   text-decoration: none;
 }
-.wireframe16-ellipse2 {
-  top: 16.9501953125px;
-  left: 66.9501953125px;
-  width: 80px;
-  height: 80px;
-  position: absolute;
-}
-.wireframe16-whats-app-image20240603at19342 {
-  top: 24.720458984375px;
-  left: 96.91357421875px;
-  width: 20px;
-  height: 47px;
-  position: absolute;
-  border-radius: 10px;
-}
-.wireframe16-text44 {
+
+.wireframe15-text49 {
   top: 59.52978515625px;
   left: 80.880615234375px;
   color: rgba(244, 250, 252, 1);
@@ -554,7 +556,7 @@ body {
   font-stretch: normal;
   text-decoration: none;
 }
-.wireframe16-text46 {
+.wireframe15-text51 {
   top: 41px;
   left: 913.0498046875px;
   color: rgba(0, 0, 0, 1);
@@ -569,7 +571,7 @@ body {
   font-stretch: normal;
   text-decoration: none;
 }
-.wireframe16-text48 {
+.wireframe15-text53 {
   top: 41px;
   left: 693.0498046875px;
   color: rgba(0, 0, 0, 1);
@@ -584,7 +586,7 @@ body {
   font-stretch: normal;
   text-decoration: none;
 }
-.wireframe16-text50 {
+.wireframe15-text55 {
   top: 41px;
   left: 543.0498046875px;
   color: rgba(0, 0, 0, 1);
@@ -599,7 +601,7 @@ body {
   font-stretch: normal;
   text-decoration: none;
 }
-.wireframe16-text52 {
+.wireframe15-text57 {
   top: 41px;
   left: 483.0498046875px;
   color: rgba(255, 255, 255, 1);
@@ -614,7 +616,7 @@ body {
   font-stretch: normal;
   text-decoration: none;
 }
-.wireframe16-group {
+.wireframe15-group {
   top: 23.666748046875px;
   left: 1313.71630859375px;
   width: 66.66666412353516px;
@@ -624,14 +626,14 @@ body {
   align-items: flex-start;
   flex-shrink: 1;
 }
-.wireframe16-vector {
+.wireframe15-vector2 {
   top: 0px;
   left: 0px;
   width: 67px;
   height: 67px;
   position: absolute;
 }
-.wireframe16-vector1 {
+.wireframe15-vector3 {
   top: 13.333251953125px;
   left: 7.570149898529053px;
   width: 52px;
