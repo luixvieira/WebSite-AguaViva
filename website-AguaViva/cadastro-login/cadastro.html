@@ -4,24 +4,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
       href="https://fonts.googleapis.com/css?family=Space+Grotesk&display=swap"
       rel="stylesheet"
     />
     <link href="../css/style-cadastro.css" rel="stylesheet" />
     <title>Cadastro</title>
+    <script src="../js/script-cadastro.js" defer></script>
   </head>
   <body>
-    <div class="form-container">
+      <form class="form-container" action="#" method="get" onsubmit="return registraUsuario(idEmail,idSenha,idConfirmaSenha)">
       <span class="CriarConta">Criar Conta</span>
       <span class="email">E-mail</span>
-      <div class="CampoEmail"></div>
+      <div>
+        <label for="idEmail"></label>
+        <input class="CampoEmail" type="email" name="txtEmail" id="idEmail" placeholder="Digite seu email" required minlength="6">
+      </div>
       <span class="DefSenha">Definir senha</span>
-      <div class="CampoSenha"></div>
+      <div>
+        <label for="idSenha"></label>
+        <input class="CampoSenha" type="password" name="txtSenha" id="idSenha" placeholder="Digite sua senha" required minlength="6">
+        <i class="fa-regular fa-eye-slash"></i>
+      </div>
       <span class="ConfSenha">Confirmar senha</span>
-      <div class="CampoSenha"></div>
-      <div class="Criar">Criar</div>
-    </div>
+      <div>
+        <label for="idConfirmaSenha"></label>
+        <input class="CampoSenha" type="password" name="txtConfirmaSenha" id="idConfirmaSenha" placeholder="Redigite sua senha" required minlength="6">
+        <i class="fa-regular fa-eye-slash"></i>
+      </div>
+      <div class="Criar"><a href="">Criar</a></div>
+    </form>
+ 
     <span class="texto">
       Junte-se à ÁguaViva. Mergulhe em uma aventura onde sua boa ação reverbera
       através das águas, onde cada voluntário é um guardião do azul infinito.
