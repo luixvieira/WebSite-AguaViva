@@ -1,0 +1,530 @@
+.wireframe16-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.wireframe16-wireframe16 {
+  width: 100%;
+  height: 1900px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(241, 241, 241, 1);
+}
+.wireframe16-text {
+  top: 122.90576171875px;
+  left: 95px;
+  color: rgba(244, 250, 252, 1);
+  width: 61px;
+  height: auto;
+  position: absolute;
+  font-size: 15.33227252960205px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Baloo Bhai 2;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-rectangle65 {
+  top: 325px;
+  left: 50px;
+  width: 1340px;
+  height: 482px;
+  position: absolute;
+  border-radius: 25px;
+}
+.wireframe16-rectangle67 {
+  top: 1367px;
+  left: 50px;
+  width: 1340px;
+  height: 498px;
+  position: absolute;
+  border-radius: 25px;
+}
+.wireframe16-rectangle66 {
+  top: 855px;
+  left: 50px;
+  width: 1340px;
+  height: 464px;
+  position: absolute;
+  border-radius: 25px;
+}
+.wireframe16-text02 {
+  top: 970px;
+  left: 609px;
+  color: rgba(0, 0, 0, 1);
+  width: 703px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-text04 {
+  top: 351px;
+  left: 609px;
+  color: rgba(0, 0, 0, 1);
+  width: 680px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-text06 {
+  top: 191px;
+  left: 76px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 55px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-text08 {
+  top: 351px;
+  left: 609px;
+  color: rgba(0, 0, 0, 1);
+  width: 680px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-text10 {
+  top: 441px;
+  left: 609px;
+  color: rgba(1, 85, 98, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.wireframe16-text12 {
+  top: 930px;
+  left: 609px;
+  color: rgba(1, 85, 98, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.wireframe16-text14 {
+  top: 484px;
+  left: 609px;
+  color: rgba(0, 0, 0, 1);
+  width: 680px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-text16 {
+  top: 714px;
+  left: 609px;
+  color: rgba(0, 0, 0, 1);
+  width: 211px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-text18 {
+  top: 659px;
+  left: 609px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-text20 {
+  top: 1395px;
+  left: 609px;
+  color: rgba(0, 0, 0, 1);
+  width: 680px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-text22 {
+  top: 1440px;
+  left: 609px;
+  color: rgba(1, 85, 98, 1);
+  width: 612px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.wireframe16-text24 {
+  top: 1798px;
+  left: 609px;
+  color: rgba(0, 0, 0, 1);
+  width: 85px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-group4919 {
+  top: 1090px;
+  left: 609px;
+  width: 708px;
+  height: 93px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.wireframe16-text26 {
+  color: rgba(0, 0, 0, 1);
+  width: 708px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-text28 {
+  top: 885px;
+  left: 609px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-dn09c16363463324101 {
+  top: 855px;
+  left: 50px;
+  width: 524px;
+  height: 464px;
+  position: absolute;
+  border-radius: 25px 0 0 25px;
+}
+.wireframe16-mergulhonorionegro20831278191 {
+  top: 325px;
+  left: 50px;
+  width: 524px;
+  height: 482px;
+  position: absolute;
+  border-radius: 25px 0 0 25px;
+}
+.wireframe16-text30 {
+  top: 1490px;
+  left: 606px;
+  color: rgba(0, 0, 0, 1);
+  width: 706px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-text36 {
+  top: 1188px;
+  left: 606px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-text38 {
+  top: 1238px;
+  left: 606px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-manguezal30847298501 {
+  top: 1367px;
+  left: 50px;
+  width: 524px;
+  height: 498px;
+  position: absolute;
+  border-radius: 20px 0 0 20px;
+}
+.wireframe16-text40 {
+  top: 1719px;
+  left: 609px;
+  color: rgba(129, 129, 129, 1);
+  width: 733px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-group4916 {
+  top: 0px;
+  left: -5.0498046875px;
+  width: 1445.0498046875px;
+  height: 114px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.wireframe16-mdiheart {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+.wireframe16-rectangle64 {
+  top: 0px;
+  left: 5.0498046875px;
+  width: 1440px;
+  height: 114px;
+  position: absolute;
+}
+.wireframe16-text42 {
+  top: 41px;
+  left: 1110.0498046875px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-ellipse2 {
+  top: 16.9501953125px;
+  left: 66.9501953125px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+.wireframe16-whats-app-image20240603at19342 {
+  top: 24.720458984375px;
+  left: 96.91357421875px;
+  width: 20px;
+  height: 47px;
+  position: absolute;
+  border-radius: 10px;
+}
+.wireframe16-text44 {
+  top: 59.52978515625px;
+  left: 80.880615234375px;
+  color: rgba(244, 250, 252, 1);
+  width: 53px;
+  height: auto;
+  position: absolute;
+  font-size: 13.349011421203613px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Baloo Bhai 2;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-text46 {
+  top: 41px;
+  left: 913.0498046875px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-text48 {
+  top: 41px;
+  left: 693.0498046875px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-text50 {
+  top: 41px;
+  left: 543.0498046875px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-text52 {
+  top: 41px;
+  left: 483.0498046875px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.wireframe16-group {
+  top: 23.666748046875px;
+  left: 1313.71630859375px;
+  width: 66.66666412353516px;
+  height: 66.66666412353516px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.wireframe16-vector {
+  top: 0px;
+  left: 0px;
+  width: 67px;
+  height: 67px;
+  position: absolute;
+}
+.wireframe16-vector1 {
+  top: 13.333251953125px;
+  left: 7.570149898529053px;
+  width: 52px;
+  height: 41px;
+  position: absolute;
+}
