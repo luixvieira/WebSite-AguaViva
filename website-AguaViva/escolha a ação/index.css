@@ -1,8 +1,6 @@
-html {
-  line-height: 1.15;
-}
-body {
-  margin: 0;
+.principal {
+  display: flex;
+  align-items: center;
 }
 * {
   box-sizing: border-box;
@@ -92,7 +90,7 @@ body {
 
   fill: var(--dl-color-theme-neutral-dark);
 }
-.wireframe14-container {
+.container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -100,6 +98,12 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+
+/* Adicione o seguinte código para centralizar horizontalmente os elementos filhos */
+.wireframe14-container > * {
+  margin-left: auto;
+  margin-right: auto;
 }
 .wireframe14-rectangle64 {
   top: 0px;
@@ -119,7 +123,7 @@ body {
   justify-content: center;
   background-color: rgba(241, 241, 241, 1);
 }
-.wireframe14-text {
+.aguaviva {
   top: 122.90576171875px;
   left: 95px;
   color: rgba(244, 250, 252, 1);
@@ -201,7 +205,7 @@ body {
   position: absolute;
   border-radius: 25px 0 0 25px;
 }
-.wireframe14-text06 {
+.idade {
   top: 418px;
   left: 597px;
   color: rgba(1, 85, 98, 1);
